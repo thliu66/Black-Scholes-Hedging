@@ -2,8 +2,6 @@ import numpy as np
 import math
 import scipy.stats as ss
 
-def main():
-    pass
 
 class BlackScholesVanillaGreeksEngine:
     def __init__(self, S, K, T, sigma, r):
